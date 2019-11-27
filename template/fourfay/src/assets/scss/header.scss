@@ -1,0 +1,55 @@
+header {
+    width: 70%;
+    min-width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    vertical-align: middle;
+    border-bottom: 1px solid transparent;
+    h1 {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 205px;
+        margin-right: 10%;
+        height: 60px;
+        background-image: url('./../images/logo.png');
+        background-size: 200px auto;
+        background-repeat: no-repeat;
+        background-position: 0px 8px;
+    }
+
+    .list_style {
+        li {
+            width: 80px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            a {
+                color: #7A7A7A;
+                cursor: default;
+            }
+        }
+
+        li.isSelected {
+            a {
+                color: #76A6FE;
+            }
+        }
+    }
+
+    .navDiv {
+        position: relative;
+
+        .line {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            height: 3px;
+            width: 80px;
+            background-color: #3279FD;
+        }
+    }
+}

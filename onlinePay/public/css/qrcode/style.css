@@ -1,0 +1,175 @@
+@media (min-width: 768px) {
+  body {
+    background: url(../../img/bg-left-pc.png) left no-repeat, url(../../img/bg-right-pc.png) right no-repeat;
+    background-size: auto 100%;
+    background-color: #4196e5;
+  }
+  body main {
+    width: 420px;
+    margin: 80px auto 0;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 20px 0px rgba(11, 68, 120, 0.4);
+    border-radius: 10px;
+  }
+  body main .logo {
+    border-radius: 10px 10px 0 0 ;
+    height: 96px;
+    background: #1890ff url(../../img/logo-pc.png) no-repeat center center;
+  }
+  body main .countPay {
+    height: 504px;
+  }
+  body main .countPay p {
+    font-size: 16px;
+    color: #323233;
+  }
+  body main .countPay .textOne {
+    letter-spacing: 1px;
+    padding-left: 41px;
+  }
+  body main .countPay .textOne .number {
+    color: #e76c2c;
+    font-size: 36px;
+  }
+  body main .countPay .textOne .icon {
+    padding-left: 19px;
+    color: #e76c2c;
+    font-size: 24px;
+  }
+  body main .countPay .textOne .yuan {
+    display: none;
+  }
+  body main .countPay .textTwo {
+    letter-spacing: 1px;
+    padding-left: 59px;
+  }
+  body main .countPay .textTwo .number {
+    padding-left: 19px;
+  }
+  body main .countPay .textThree {
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  body main .countPay .textThree .fontBig {
+    color: #ff0000;
+  }
+  body main .countPay .textFour {
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  body main .countPay .textFour span {
+    color: #1890ff;
+  }
+  body main .countPay .qr {
+    width: 277px;
+    height: 277px;
+    margin: 0 auto;
+    background: url(../../img/erweima-bg-pc.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  body main .countPay .qr img {
+    padding-top: 18px;
+    width: 240px;
+    height: 240px;
+  }
+  body .notic {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 100px;
+    height: 100%;
+  }
+  body {
+    background: #4196e5;
+    background: -moz-linear-gradient(top, #4296e5 0%, #3383cd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4296e5), color-stop(100%, #3383cd));
+    background: -webkit-linear-gradient(top, #4296e5 0%, #3383cd 100%);
+    background: -o-linear-gradient(top, #4296e5 0%, #3383cd 100%);
+    background: -ms-linear-gradient(top, #4296e5 0%, #3383cd 100%);
+    background: linear-gradient(to bottom, #4296e5 0%, #3383cd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4296e5', endColorstr='#3383cd', GradientType=0);
+  }
+  body main .logo {
+    margin-top: .7rem;
+    width: 100%;
+    height: 100px;
+    background: url(../../img/logo-m.png) no-repeat center center;
+    background-size: 50% 50%;
+  }
+  body main .countPay p {
+    margin: 0 auto;
+    font-size: .28rem;
+    color: #ffffff;
+  }
+  body main .countPay .textOne {
+    color: #d0e9ff;
+    padding-left: 1.35rem;
+  }
+  body main .countPay .textOne .number {
+    color: #ffa272;
+    font-size: .8rem;
+  }
+  body main .countPay .textOne .icon {
+    display: none;
+  }
+  body main .countPay .textOne .yuan {
+    font-size: .28rem;
+    color: #d0e9ff;
+  }
+  body main .countPay .textTwo {
+    color: #d0e9ff;
+    padding-left: 1.67rem;
+  }
+  body main .countPay .textThree {
+    line-height: .7rem;
+    text-align: center;
+    letter-spacing: .02rem;
+  }
+  body main .countPay .textThree .fontBr {
+    display: block;
+  }
+  body main .countPay .textThree .fontBig {
+    display: inline-block;
+    font-size: .533333rem;
+    color: #ffffff;
+  }
+  body main .countPay .textFour {
+    text-align: center;
+    letter-spacing: .02rem;
+  }
+  body main .countPay .textFour .fontBig {
+    font-size: .48rem;
+    color: #ffa272;
+  }
+  body main .countPay .qr {
+    width: 3.63rem;
+    height: 3.63rem;
+    margin: .28rem auto .79rem;
+    background: #ffffff;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 3px 20px 0px rgba(0, 21, 41, 0.4);
+  }
+  body main .countPay .qr img {
+    padding-top: .23rem;
+    width: 3.12rem;
+    height: 3.12rem;
+  }
+  body .notic {
+    font-size: .24rem;
+    margin: 0 auto;
+    width: 50%;
+    color: #063866;
+    text-align: center;
+    line-height: .5rem;
+    letter-spacing: .02rem;
+  }
+  body .notic .fontBr {
+    display: block;
+  }
+}

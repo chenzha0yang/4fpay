@@ -1,0 +1,27 @@
+.w120 {
+  width: 120px;
+}
+.w150 {
+  width: 150px;
+}
+
+.mixin-components-container {
+  background-color: #f0f2f5;
+  padding: 30px;
+  min-height: calc(100vh - 84px);
+}
+
+.component-item {
+  min-height: 100px;
+}
+
+.material-input__component {
+  margin-top: 0 !important;
+}
+.clear::after{
+  content:"";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}

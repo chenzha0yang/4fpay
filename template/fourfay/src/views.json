@@ -1,0 +1,23 @@
+[{
+        "url": "index",
+        "isUrl": true
+    },
+    {
+        "url": "home"
+    },
+    {
+        "url": "product"
+    },
+    {
+        "url": "safe"
+    },
+    {
+        "url": "download"
+    },
+    {
+        "url": "info"
+    },
+    {
+        "url": "help"
+    }
+]

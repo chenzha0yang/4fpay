@@ -1,0 +1,75 @@
+$fontColor:#505970;
+
+footer {
+    min-width: 1000px;
+    height: 138px;
+    width: 100%;
+    background-color: #101A35;
+
+    >div {
+        margin: 0 auto;
+        width: 70%;
+
+        >div {
+            display: inline-block;
+        }
+    }
+
+    .footSelectList {
+        margin-top: 40px;
+        color: $fontColor;
+        width: 60%;
+
+        li {
+            margin-left: 30px;
+            font-size: 16px;
+
+            a {
+                color: $fontColor;
+                cursor: default;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+    }
+
+    .help_line {
+        width: 35%;
+
+        .call {
+            padding-top: 30px;
+
+            img {
+                vertical-align: middle;
+                display: inline-block;
+            }
+
+            span {
+                color: $fontColor;
+                margin-left: 10px;
+            }
+
+            p {
+                margin-top: 5px;
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+
+        .scan_pic {
+            margin-left: 50px;
+            text-align: center;
+            padding-top: 20px;
+
+            p {
+                margin-top: 5px;
+                color: white;
+                font-size: 13px
+            }
+        }
+    }
+}
